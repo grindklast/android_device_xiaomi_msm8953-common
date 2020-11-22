@@ -89,6 +89,9 @@ TARGET_QCOM_NO_FM_FIRMWARE := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
+# Graphics
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
