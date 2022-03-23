@@ -1,0 +1,2 @@
+# Battery health
+r_dir_file(system_app, sysfs_battery_supply);
